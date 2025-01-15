@@ -116,7 +116,7 @@ footer nav p{
 footer nav a:hover{
     color: rgb(118, 36, 36);
 }
-@media(max-width:768px){
+@media(max-width:900px){
     /*--Animation vom Menü--*/
     .hamburger.active .bar:nth-child(2){
         opacity: 0;
