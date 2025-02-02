@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 7%;
-    height: 60vh; 
+    margin-top: 3%;
+    height: 30vh; 
 }
 .sakuraTop{
     display: flex;
@@ -37,3 +37,9 @@
     font-size: 30px;
     color: #fc2c5dd5;
 }
+.sakuraPictures {
+    max-width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+    float:initial;
+  }
