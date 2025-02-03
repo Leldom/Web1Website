@@ -1,61 +1,41 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
+    <title>JapanTouri</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
-    <title>JapanTouri</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleSakura.css" />
-    <link rel="stylesheet" href="sehensw.css">
-    <script src="index.js" defer></script>
 
-    <!-- icon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/icon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/icon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/icon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="images/icon/site.webmanifest" />
+    <link rel="stylesheet" href="/TestWebsite/css/main.css" />
+    <link rel="stylesheet" href="/TestWebsite/css/hamburger.css" />
+    <link rel="stylesheet" href="/TestWebsite/css/@mediaTag.css" />
+    <link rel="stylesheet" href="/TestWebsite/css/sakura.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/TestWebsite/images/icon/apple-touch-icon.png"/> <!--Für Apple Geräte-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/TestWebsite/images/icon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/TestWebsite/images/icon/favicon-16x16.png"/>
+    <link rel="manifest" href="/TestWebsite/images/icon/site.webmanifest" /> <!--Wenn die App auf den Homebildschirm gelegt wird, als App-->
+
+    <script src="/TestWebsite/javascript/hamburger.js" defer></script>
   </head>
 
 
   <body>
     <header>
       <nav class="navbar">
-        <a href="index.html" class="nav-branding">JapanTouri</a>
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Startseite</a>
-          </li>
-          <li class="nav-item">
-            <a href="#Fushimi" class="nav-link">Fushimi Inari-Taisha</a>
-          </li>
-          <li class="nav-item">
-            <a href="#mntFuji" class="nav-link">Mount Fuji</a>
-          </li>
-          <li class="nav-item">
-            <a href="#kinkaku" class="nav-link">Kinkaku-ji</a>
-          </li>
-          <li class="nav-item">
-            <a href="#shibuya" class="nav-link">Shibuya Crossing</a>
-          </li>
-          <li class="nav-item">
-            <a href="#memorial" class="nav-link">Peace Memorial Park</a>
-          </li>
 
+        <a href="index.html" class="nav-branding">JapanTouri</a>
+        <a href="sakura.html"><img class="bluete" src="/TestWebsite/images/utils/SakuraFlowerNoBC.png" alt="Link zur Seite mit der Bl&uuml;tezeiten"/></a>
+        <a href="sightseeings.html"><img class="tor" src="/TestWebsite/images/utils/ToriTor.png" alt="Tor Icon"/></a>
+
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Startseite</a></li>
+          <li class="nav-item"><a href="#Fushimi" class="nav-link">Fushimi Inari-Taisha</a></li>
+          <li class="nav-item"><a href="#mntFuji" class="nav-link">Mount Fuji</a></li>
+          <li class="nav-item"><a href="#kinkaku" class="nav-link">Kinkaku-ji</a></li>
+          <li class="nav-item"><a href="#shibuya" class="nav-link">Shibuya Crossing</a></li>
+          <li class="nav-item"><a href="#memorial" class="nav-link">Peace Memorial Park</a></li>
         </ul>
+
         <div class="hamburger">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -63,26 +43,25 @@
         </div>
       </nav>
     </header>
-    <img
-      id="mainPicture"
-      src="images/ToriTore.jpg"
-      alt="Bild von Japan als Header"
-    />
-    <div class="underline">
-      <p class="sakuraTop">
-        Auf jeder Reise nach Japan gibt es eine Menge zu Entdecken. Selbstverst&auml;ndlich gibt es eine Menge Sehensw&uuml;rdigkeiten.
-      </p>
-      <p class="sakuraTop">
-        Auf dieser Seite finden Sie Japans beliebtesten Sehensw&uuml;rdigkeiten.
-      </p>
+
+    <div class="caption">
+      <img id="mainPicture" src="/TestWebsite/images/BannerBilder/ToriTore.jpg" alt="Bild von Japan als Header">
+      <p class="sakuraTop">Eine Reise nach Japan sollte nat&uuml;rlich gut &uuml;berlegt sein. <br> Daher wollten wir uns hier mal vorstellen.<br></p>
+      <ul>
+        <li>Dominik</li>
+        <li>Fabian</li>
+        <li>Villy</li>
+        <li>Kerem</li>
+      </ul>
+      <p><br>Wir w&uuml;rden uns freuen wenn euch unsere Website gef&auml;lt und wir euch zu einer Reise nach Japan begeistern konnten.</p>
     </div>
   </body>
-  <footer class="dunkel">
-    <nav id="foot">
-      <a href="/TestWebsite/credits.html">Credits</a>
+
+  <footer>
+    <nav>
+      <a href="credits.html">Credits</a>
       <p>|</p>
-      <a href="/TestWebsite/sources.html">Quellen</a>
+      <a href="quellen.html">Quellen</a>
     </nav>
   </footer>
-  <script src="index.js"></script>
 </html>

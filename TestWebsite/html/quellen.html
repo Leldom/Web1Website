@@ -1,75 +1,68 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
+    <title>JapanTouri</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
-    <title>JapanTouri</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleSakura.css" />
-    <link rel="stylesheet" href="sehensw.css">
-    <script src="index.js" defer></script>
 
-    <!-- icon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/icon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/icon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/icon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="images/icon/site.webmanifest" />
+    <link rel="stylesheet" href="/TestWebsite/css/main.css" />
+    <link rel="stylesheet" href="/TestWebsite/css/hamburger.css" />
+    <link rel="stylesheet" href="/TestWebsite/css/@mediaTag.css" />
+    <link rel="stylesheet" href="/TestWebsite/css/sakura.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/TestWebsite/images/icon/apple-touch-icon.png"/> <!--Für Apple Geräte-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/TestWebsite/images/icon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/TestWebsite/images/icon/favicon-16x16.png"/>
+    <link rel="manifest" href="/TestWebsite/images/icon/site.webmanifest" /> <!--Wenn die App auf den Homebildschirm gelegt wird, als App-->
+
+    <script src="/TestWebsite/javascript/hamburger.js" defer></script>
   </head>
-
 
   <body>
     <header>
       <nav class="navbar">
+
         <a href="index.html" class="nav-branding">JapanTouri</a>
+        <a href="sakura.html"><img class="bluete" src="/TestWebsite/images/utils/SakuraFlowerNoBC.png" alt="Link zur Seite mit der Bl&uuml;tezeiten"/></a>
+        <a href="sightseeings.html"><img class="tor" src="/TestWebsite/images/utils/ToriTor.png" alt="Tor Icon"/></a>
+
         <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Startseite</a>
-          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Startseite</a></li>
+          <li class="nav-item"><a href="#UeberJapan" class="nav-link">&Uuml;ber Japan</a></li>
+          <li class="nav-item"><a href="#Staedte" class="nav-link">St&auml;dte</a></li>
+          <li class="nav-item"><a href="#Kultur" class="nav-link">Kultur</a></li>
         </ul>
+
         <div class="hamburger">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
+
       </nav>
     </header>
-    <img
-      id="mainPicture"
-      src="images/Qualle.jpg"
-      alt="Bild von Japan als Header"
-    />
-    <div class="underline">
+
+    
+    <div class="caption">
+      <img id="mainPicture" src="/TestWebsite/images/BannerBilder/Qualle.jpg" alt="Bild von Japan als Header">
       <p class="CreditsText">
-        Jede Website braucht seine Quellen, auch diese hier. Deswegen haben wir hier unsere Quellen aufgelistet
+        Jede Website braucht seine Quellen, auch diese hier.<br> Deswegen haben wir hier unsere Quellen aufgelistet
       </p>
     </div>
-    <div class="centered">
+
+    <main>
       <ul id="creditlist"> 
         <li>Pictures from</li>
         <a class="credits-link" href="unsplash.com"> unsplash.com </a>
       </ul>
-    </div>
+    </main>
   </body>
-  <footer class="dunkel">
-    <nav id="foot">
-      <a href="/TestWebsite/credits.html">Credits</a>
+
+  <footer>
+    <nav>
+      <a href="credits.html">Credits</a>
       <p>|</p>
-      <a href="/TestWebsite/sources.html">Quellen</a>
+      <a href="quellen.html">Quellen</a>
     </nav>
   </footer>
-  <script src="index.js"></script>
 </html>
