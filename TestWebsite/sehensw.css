@@ -9,4 +9,18 @@ h1, h2 {
 }
 .anchor-element {
     scroll-margin-top: 100px; /* Passt den Abstand an */
-  }
+}
+
+#Fushimi, #mntFuji, #kinkaku, #shibuya, #memorial {
+    scroll-margin-top: 70px;
+}
+
+#creditlist li{
+    list-style-type: disc;
+}
+.credits-link {
+    color: black;
+}
+.credits-link:hover{
+    color:rgb(118, 36, 36);
+}
