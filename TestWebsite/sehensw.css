@@ -1,0 +1,9 @@
+h1, h2 {
+    display: inline-block;
+    margin-right: 10px; /* Abstand zwischen den Elementen */
+}
+.sightsPictures {
+    max-width: 50%;
+    margin: 10px;
+    float:inline-end;
+}
