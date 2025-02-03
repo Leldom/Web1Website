@@ -1,0 +1,45 @@
+.centeredS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  height: 30vh;
+}
+.sakuraTop {
+  display: flex;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.pBig {
+  display: flex;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 400%;
+}
+.pSpecial {
+  display: flex;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 300%;
+  color: #bc002d;
+}
+.pSakuraTime {
+  display: flex;
+  text-align: left;
+  margin-left: 5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: #fc2c5dd5;
+}
+.sakuraPictures {
+  max-width: 50%;
+  margin-left: 5%;
+  margin-top: 2%;
+  float: initial;
+}
