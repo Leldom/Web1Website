@@ -139,7 +139,6 @@ h1, h2 {
 }
 .bluete {left: 200px;}
 .tor {left: 275px;}
-<<<<<<< HEAD
 /*   Leaflet-Karte   */
 #map { height: 320px; border-radius: 5px; border:#bc002d solid 3px; margin-left: 30px; margin-right: 30px;}
 
@@ -162,9 +161,3 @@ h1, h2 {
 [data-aos="fade-up"]:not([data-aos-duration="2000"]) {
   transform: translateY(calc(-50px + 10vw)); /* Schnelle Bewegung für kleinere Blüten */
 }
-=======
-
-#map { height: 320px; border-radius: 5px; border: #bc002d solid 3px; margin-left: 30px; margin-right: 30px;}
-
-
->>>>>>> b328aafdad49528357bd95580bc22c5683a04402
