@@ -29,8 +29,8 @@ h1 {
   font-weight: bolder;
 }
 .h-sakura {
-  height: 200%;
-  width: 400%;
+  display: flex;
+  flex: 1 1 400px;
   font-family: monospace;
   font-size: 45px;
   font-weight: bolder;

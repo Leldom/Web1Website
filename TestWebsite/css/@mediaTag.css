@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   /*--Animation vom Menü--*/
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
