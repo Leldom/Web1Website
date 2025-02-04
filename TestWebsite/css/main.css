@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
 }
 
-#UeberJapan, #Staedte, #Kultur, #BluetezeitNachStaedten, #Fushimi, #mntFuji, #kinkaku, #shibuya, #memorial {
+#UeberJapan, #Staedte, #Kultur, #bluetezeiten, #Fushimi, #mntFuji, #kinkaku, #shibuya, #memorial {
   scroll-margin-top: 80px; /* Passt den Abstand an */
 }
 
