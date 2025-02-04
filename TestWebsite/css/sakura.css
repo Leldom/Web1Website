@@ -1,16 +1,4 @@
-.centerflex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.centerflex p{
-  width: 100%;  
-}
-.sakuragrid {
-  display: flex;
-  flex-direction: column;
-}
+
 .sakuraTop {
   display: flex;
   flex-direction: column;
@@ -22,12 +10,6 @@
   margin-left: 5%;
   margin-right: 5%;
 }
-.pBig, .pSpecial {
-  text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.pBig {font-size: 400%; width:100%; text-decoration: underline;}
-.pSpecial {font-size: 300%; color: #bc002d;}
 
 .pSakuraTime {
   display: flex;
