@@ -29,8 +29,7 @@ h1 {
   font-weight: bolder;
 }
 .h-sakura {
-  height: 200%;
-  width: 400%;
+  width: 100%;
   font-family: monospace;
   font-size: 45px;
   font-weight: bolder;
@@ -38,6 +37,7 @@ h1 {
   padding-top: 115px;
   background-image: url(/TestWebsite/images/utils/SakuraBranches2.png);
   background-repeat: no-repeat;
+  grid-area: h-sakura;
 }
 
 /*   footer   */
@@ -67,7 +67,6 @@ footer nav a:hover {
 
 /*   Text unter Mainbild   */
 .caption {
-  padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
   font-size: 25px;
@@ -75,6 +74,7 @@ footer nav a:hover {
 }
 .caption > img{
   margin-top: -30px;
+  margin-bottom: 50px;
 }
 
 article {
@@ -133,3 +133,13 @@ h1, h2 {
 }
 .bluete {left: 200px;}
 .tor {left: 275px;}
+
+@media (max-width: 800px) {
+  .sakuragrid {
+    display: grid;
+    grid-template-areas: 'h-sakura'
+                         'pSakuraTime'
+                         'SakuraPictures';
+    grid-template-columns: 1fr;
+  }
+}
