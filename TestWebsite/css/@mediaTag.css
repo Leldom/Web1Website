@@ -40,12 +40,3 @@
     height: 300px;
   }
 }
-@media (max-width: 800px) {
-  .sakuragrid {
-    display: grid;
-    grid-template-areas: 'h-sakura'
-                         'pSakuraTime'
-                         'SakuraPictures';
-    grid-template-columns: 1fr;
-  }
-}
