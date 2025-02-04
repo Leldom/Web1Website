@@ -135,3 +135,23 @@ h1, h2 {
 .tor {left: 275px;}
 /*   Leaflet-Karte   */
 #map { height: 320px; border-radius: 5px; border:#bc002d solid 3px; margin-left: 30px; margin-right: 30px;}
+
+
+.flower {
+  width: 50px;
+  height: 50px;
+  background: url(/TestWebsite/images/utils/SakuraFlowerNoB.png) no-repeat center center;
+  background-size: cover;
+  position: fixed;
+  transition: transform 0.8s ease-in-out;
+  opacity: 0; /* Startet unsichtbar */
+  z-index: -1;
+}
+[data-aos="fade-up"] {
+  opacity: 1; /* Blütenblatt wird sichtbar */
+  transform: translateY(0); /* Beginnt an der normalen Position */
+}
+/* Parallax-Effekt mit unterschiedlicher Geschwindigkeit */
+[data-aos="fade-up"]:not([data-aos-duration="2000"]) {
+  transform: translateY(calc(-50px + 10vw)); /* Schnelle Bewegung für kleinere Blüten */
+}

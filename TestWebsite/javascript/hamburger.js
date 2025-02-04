@@ -35,3 +35,26 @@ window.addEventListener("scroll", () => {
   }
 });
 //Bis hier
+
+AOS.init({
+  easing: 'ease-out',
+  once: true,
+  offset: 100
+});
+
+window.addEventListener('scroll', function() {
+  let scrollPosition = window.scrollY; // Holen der aktuellen Scrollposition
+
+  // Berechnen der Bewegung der Blüten
+  let flower1 = document.getElementById('flower1');
+  let flower2 = document.getElementById('flower2');
+  let flower3 = document.getElementById('flower3');
+  let flower4 = document.getElementById('flower4');
+  let flower5 = document.getElementById('flower5');
+  // Bewege die Blüten basierend auf der Scrollposition
+  flower1.style.transform = `translateY(${scrollPosition * 0.1}px)`;
+  flower2.style.transform = `translateY(${scrollPosition * 0.15}px)`;
+  flower3.style.transform = `translateY(${scrollPosition * 0.2}px)`;
+  flower4.style.transform = `translateY(${scrollPosition * 0.3}px)`;
+  flower5.style.transform = `translateY(${scrollPosition * 0.22}px)`;
+});
