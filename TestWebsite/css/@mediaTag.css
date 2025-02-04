@@ -42,6 +42,10 @@
 }
 @media (max-width: 800px) {
   .sakuragrid {
-    display: flex;
+    display: grid;
+    grid-template-areas: 'h-sakura'
+                         'pSakuraTime'
+                         'SakuraPictures';
+    grid-template-columns: 1fr;
   }
 }
