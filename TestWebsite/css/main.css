@@ -133,5 +133,5 @@ h1, h2 {
 }
 .bluete {left: 200px;}
 .tor {left: 275px;}
-
-
+/*   Leaflet-Karte   */
+#map { height: 320px; border-radius: 5px; border:#bc002d solid 3px; margin-left: 30px; margin-right: 30px;}
