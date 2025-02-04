@@ -29,7 +29,12 @@ h1 {
   font-weight: bolder;
 }
 .h-sakura {
+<<<<<<< HEAD
   width: 100%;
+=======
+  display: flex;
+  flex: 1 1 400px;
+>>>>>>> 1768562426b78a4a2cbea2600cf62d0349f5e0e5
   font-family: monospace;
   font-size: 45px;
   font-weight: bolder;
