@@ -16,7 +16,7 @@ https://ledom.neocities.org/
 gehostet.
 
 Website von:
-Dominik Adamczak | Matrikel Nr. 18743476
-Fabian Zell      | Matrikel Nr. 10643546
-Villy Kunin      | Matrikel Nr. 20243495
-Kerem Yilmaz     | Matrikel Nr. 18043545
+Dominik Adamczak 
+Fabian Zell      
+Villy Kunin      
+Kerem Yilmaz     
