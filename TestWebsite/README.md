@@ -16,7 +16,7 @@ https://ledom.neocities.org/
 gehostet.
 
 Website von:
-Dominik Adamczak 
-Fabian Zell      
-Villy Kunin      
-Kerem Yilmaz     
+Dominik Adamczak, 
+Fabian Zell,      
+Villy Kunin,      
+Kerem Yilmaz,     
